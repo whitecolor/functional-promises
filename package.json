@@ -36,7 +36,11 @@
     "url": "https://github.com/functional-promises/functional-promises.git"
   },
   "homepage": "https://fpromises.io/",
-  "files": ["dist/*"],
+  "files": [
+    "dist/*",
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "start": "rollup -c --watch",
     "test": "nyc --reporter=lcov --reporter=text-summary ava --verbose",
